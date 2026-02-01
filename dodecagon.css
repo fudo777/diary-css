@@ -12,15 +12,14 @@ body {
   padding: 0;
 }
 
-/* ===== 共通：レス ===== */
-.post {
-  background: #fffdf8;
-  margin-left: 12px;
-  margin-right: 12px;
-  padding: 18px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+
+div, p {
+  line-height: 1.8;
 }
+
+
+p {
+  margin-bottom: 1em;
 
 /* ===== 表紙（>>1） ===== */
 .post:first-child {
