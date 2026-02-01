@@ -1,1 +1,32 @@
+/* ===== 全体 ===== */
+body {
+  background: #f2f1ee;
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Hiragino Maru Gothic ProN",
+               "Yu Gothic", sans-serif;
+  line-height: 1.8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
+/* ===== 共通：レス ===== */
+.post {
+  background: #fffdf8;
+  margin: 16px;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+/* ===== 表紙（>>1） ===== */
+.post:first-child {
+  background: #fff;
+  border: 2px solid #d6cfc7;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+/* ===== ページ（>>2以降） ===== */
+.post:not(:first-child) {
+  border-left: 6px solid #cbbfae;}
