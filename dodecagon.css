@@ -1,34 +1,81 @@
-/* ===== 全体 ===== */
+/* =========================
+   基本設定（全体）
+========================= */
+
 body {
-  padding: 16px !important;
-  box-sizing: border-box;
-  background: #f2f1ee;
-  font-family: -apple-system, BlinkMacSystemFont,
-               "Hiragino Maru Gothic ProN",
-               "Yu Gothic", sans-serif;
-  line-height: 1.8;
-  color: #333;
   margin: 0;
-  padding: 0;
+  padding: 16px !important;
+
+  background: linear-gradient(
+    180deg,
+    #e9ddf5 0%,
+    #d8c6ee 100%
+  );
+
+  color: #2a2235;
+  font-family: serif;
 }
 
 
-div, p {
-  line-height: 1.8;
+/* =========================
+   投稿者名
+========================= */
+
+.name {
+  color: #6b4fa3;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 
-p {
-  margin-bottom: 1em;
+/* =========================
+   本文（共通）
+========================= */
 
-/* ===== 表紙（>>1） ===== */
-.post:first-child {
-  background: #fff;
-  border: 2px solid #d6cfc7;
-  text-align: center;
-  font-size: 1.1em;
+.line-text {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(2px);
+
+  padding: 14px 16px;
+  margin: 12px 0;
+
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(80, 40, 120, 0.15);
+
+  line-height: 1.9;
+  letter-spacing: 0.04em;
+  font-size: 0.95rem;
 }
 
-/* ===== ページ（>>2以降） ===== */
-.post:not(:first-child) {
-  border-left: 6px solid #cbbfae;}
+
+/* =========================
+   フォント切り替え
+========================= */
+
+/* 薬研 */
+.yagen {
+  font-family: "Comic Sans MS", "Bradley Hand", cursive;
+}
+
+/* 不動 */
+.fudo {
+  font-family: "Segoe Print", "Hiragino Maru Gothic ProN", sans-serif;
+}
+
+/* UI・地の文（戻る / 次へ 等） */
+.note-ui {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+  font-size: 0.85rem;
+  color: #4a3a63;
+}
+
+
+/* =========================
+   区切り線
+========================= */
+
+hr {
+  border: none;
+  border-top: 1px dashed rgba(120, 80, 160, 0.4);
+  margin: 16px 0;}
+
