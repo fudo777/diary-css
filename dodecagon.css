@@ -1,7 +1,5 @@
 /* ===== 全体 ===== */
 body {
-  padding-left: 12px;
-  padding-right: 12px;
   box-sizing: border-box;
   background: #f2f1ee;
   font-family: -apple-system, BlinkMacSystemFont,
@@ -16,7 +14,8 @@ body {
 /* ===== 共通：レス ===== */
 .post {
   background: #fffdf8;
-  margin: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
   padding: 18px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.06);
