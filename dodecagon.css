@@ -1,5 +1,8 @@
 /* ===== 全体 ===== */
 body {
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
   background: #f2f1ee;
   font-family: -apple-system, BlinkMacSystemFont,
                "Hiragino Maru Gothic ProN",
