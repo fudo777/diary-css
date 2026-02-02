@@ -54,12 +54,16 @@ body {
 
 /* 薬研 */
 .yagen {
-  font-family: "Comic Sans MS", "Bradley Hand", cursive;
+   font-family: "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
+  font-size: 0.95rem;
+  color: #4a3a6a;
 }
 
 /* 不動 */
 .fudo {
-  font-family: "Segoe Print", "Hiragino Maru Gothic ProN", sans-serif;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 0.95rem;
+  color: #2e2e2e;
 }
 
 /* UI・地の文（戻る / 次へ 等） */
