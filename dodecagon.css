@@ -47,16 +47,24 @@ body {
 
 /* 薬研 */
 .yagen {
-   font-family: "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
-  font-size: 0.95rem;
-  color: #4a3a6a;
+  background: rgba(255,255,255,0.8);
+  padding: 12px 14px;
+  margin: 8px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(80,40,120,0.15);
+
+  font-family: "Comic Sans MS", "Bradley Hand", cursive;
 }
 
 /* 不動 */
 .fudo {
-  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
-  font-size: 0.95rem;
-  color: #2e2e2e;
+  background: rgba(255,255,255,0.85);
+  padding: 12px 14px;
+  margin: 8px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(80,40,120,0.15);
+
+  font-family: "Segoe Print", "Hiragino Maru Gothic ProN", sans-serif;
 }
 
 /* UI・地の文（戻る / 次へ 等） */
