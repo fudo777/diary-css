@@ -46,26 +46,30 @@ body {
 ========================= */
 
 .yagen {
-  width: 70%;
+  /* サイズ・配置 */
+  width: 78%;
   max-width: 300px;
   margin: 12px 0;
-
-  background: rgba(255, 255, 255, 0.62);
-  backdrop-filter: blur(4px);
-
   padding: 14px 16px;
+
+  /* 半透明ガラス */
+  background: rgba(255, 255, 255, 0.58);
+  backdrop-filter: blur(8px);
+
+  /* 文字 */
+  font-size: 0.82rem;
+  line-height: 1.75;
+  letter-spacing: 0.035em;
+  color: #3e4fa3; /* タンザナイト寄り青 */
+
+  /* 角 */
   border-radius: 12px;
 
+  /* 宝石発光 */
   box-shadow:
-    0 0 16px rgba(255,255,255,0.7),
-    0 0 14px rgba(180, 200, 255, 0.65), /* 青白い発光 */
-    0 4px 16px rgba(80, 110, 190, 0.35); /* タンザナイト影 */
-
-  font-size: 0.8rem;
-  letter-spacing: 0.03em;
-  line-height: 1.8;
-
-  color: #3f5fb3; /* タンザナイトブルー */
+    0 0 18px rgba(255, 255, 255, 0.85),   /* 白い芯の光 */
+    0 0 26px rgba(160, 190, 255, 0.6),    /* 青オーラ */
+    0 6px 18px rgba(80, 110, 190, 0.35);  /* 奥行き影 */
 }
 
 
@@ -74,29 +78,38 @@ body {
 ========================= */
 
 .fudo {
-  width: 70%;
+  /* サイズ・配置 */
+  width: 78%;
   max-width: 300px;
   margin: 12px 0;
-
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(4px);
-
   padding: 14px 16px;
+
+  /* 半透明ガラス */
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+
+  /* 文字 */
+  font-size: 0.82rem;
+  line-height: 1.75;
+  letter-spacing: 0.035em;
+  color: #6b3a8f; /* アメジスト紫 */
+
+  /* 角 */
   border-radius: 12px;
 
+  /* 宝石発光 */
   box-shadow:
-    0 0 16px rgba(255,255,255,0.7),
-    0 0 14px rgba(210, 180, 255, 0.6), /* 紫の光 */
-    0 4px 16px rgba(120, 70, 160, 0.35); /* アメジスト影 */
-
-  font-size: 0.8rem;
-  letter-spacing: 0.03em;
-  line-height: 1.8;
-
-  color: #6a3fa0; /* アメジストパープル */
+    0 0 18px rgba(255, 255, 255, 0.85),   /* 白い芯 */
+    0 0 26px rgba(210, 170, 255, 0.6),    /* 紫オーラ */
+    0 6px 18px rgba(120, 70, 160, 0.35);  /* 深み影 */
 }
-   
-/* UI・地の文（戻る / 次へ 等） */
+
+
+
+/* =========================
+　 UI・地の文（戻る / 次へ 等） 
+========================= */
+
 .note-ui {
   font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
   font-size: 0.85rem;
