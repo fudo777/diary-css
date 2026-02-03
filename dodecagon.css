@@ -42,15 +42,17 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(80, 40, 120, 0.15);
 
-  /* ★これが重要 */
-  font-size: 0;
+  font-size: 0; /* 改行ノード潰す */
+}
 
-   .line-text > div {
+/* ★これは外に出す */
+.line-text > div {
   font-size: 0.85rem;
   line-height: 1.8;
   letter-spacing: 0.04em;
-   }
+}
 
+   
 /* =========================
    フォント切り替え
 ========================= */
