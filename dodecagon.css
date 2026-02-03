@@ -45,22 +45,22 @@ body {
    ペン：薬研（yagen）
 ========================= */
 .yagen {
-  max-width: 360px;          /* iPhone15(約393px)より少し小さめ */
-  width: 92vw;               /* 画面に応じて縮む */
-  margin: 10px auto;         /* 中央寄せ */
+  width: 75%;
+  max-width: 320px;
+  margin: 10px 0;
 
-  background: rgba(255, 255, 255, 0.75);
-  backdrop-filter: blur(2px);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(3px);           
 
   padding: 14px 16px;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(80, 40, 120, 0.15);
+  box-shadow: 0 2px 8px rgba(80, 40, 120, 0.2);
 
-  font-size: 0.82rem;        /* 少しだけ小さく */
-  letter-spacing: 0.03em;    /* 字間ちょい詰め */
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
   line-height: 1.8;
 
-  color: #4b4aa6;            /* 青紫系 */
+  color: #4b4aa6;
 }
 
 
@@ -68,22 +68,22 @@ body {
    ペン：不動（fudo）
 ========================= */
 .fudo {
-  max-width: 360px;
-  width: 92vw;
-  margin: 10px auto;
+  width: 75%;
+  max-width: 320px;
+  margin: 10px 0;
 
-  background: rgba(255, 255, 255, 0.75);
-  backdrop-filter: blur(2px);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(3px);
 
   padding: 14px 16px;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(120, 40, 80, 0.15);
+  box-shadow: 0 2px 8px rgba(120, 40, 80, 0.2);
 
   font-size: 0.82rem;
   letter-spacing: 0.03em;
   line-height: 1.8;
 
-  color: #9b3f6b;            /* 赤紫系 */
+  color: #9b3f6b;
 }
 
    
