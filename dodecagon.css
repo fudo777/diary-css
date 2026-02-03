@@ -42,31 +42,51 @@ body {
 
    
 /* =========================
-   フォント切り替え
+   ペン：薬研（yagen）
 ========================= */
-
-/* 薬研 */
 .yagen {
-  background: rgba(255,255,255,0.8);
-  padding: 12px 14px;
-  margin: 8px 0;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(80,40,120,0.15);
+  max-width: 360px;          /* iPhone15(約393px)より少し小さめ */
+  width: 92vw;               /* 画面に応じて縮む */
+  margin: 10px auto;         /* 中央寄せ */
 
-  font-family: "Comic Sans MS", "Bradley Hand", cursive;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(2px);
+
+  padding: 14px 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(80, 40, 120, 0.15);
+
+  font-size: 0.82rem;        /* 少しだけ小さく */
+  letter-spacing: 0.03em;    /* 字間ちょい詰め */
+  line-height: 1.8;
+
+  color: #4b4aa6;            /* 青紫系 */
 }
 
-/* 不動 */
+
+/* =========================
+   ペン：不動（fudo）
+========================= */
 .fudo {
-  background: rgba(255,255,255,0.85);
-  padding: 12px 14px;
-  margin: 8px 0;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(80,40,120,0.15);
+  max-width: 360px;
+  width: 92vw;
+  margin: 10px auto;
 
-  font-family: "Segoe Print", "Hiragino Maru Gothic ProN", sans-serif;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(2px);
+
+  padding: 14px 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(120, 40, 80, 0.15);
+
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+
+  color: #9b3f6b;            /* 赤紫系 */
 }
 
+   
 /* UI・地の文（戻る / 次へ 等） */
 .note-ui {
   font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
