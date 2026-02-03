@@ -44,17 +44,21 @@ body {
 /* =========================
    ペン：薬研（yagen）
 ========================= */
+
 .yagen {
   width: 75%;
   max-width: 320px;
-  margin: 10px 0;
+  margin: 12px 0;
 
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(3px);           
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(4px);
 
   padding: 14px 16px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(80, 40, 120, 0.2);
+  border-radius: 12px;
+
+  box-shadow:
+    0 0 12px rgba(255, 255, 255, 0.6),   /* 白い光 */
+    0 4px 14px rgba(90, 70, 160, 0.35);  /* 紫の影 */
 
   font-size: 0.82rem;
   letter-spacing: 0.03em;
@@ -67,17 +71,21 @@ body {
 /* =========================
    ペン：不動（fudo）
 ========================= */
+
 .fudo {
   width: 75%;
   max-width: 320px;
-  margin: 10px 0;
+  margin: 12px 0;
 
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(3px);
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(4px);
 
   padding: 14px 16px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(120, 40, 80, 0.2);
+  border-radius: 12px;
+
+  box-shadow:
+    0 0 12px rgba(255, 255, 255, 0.6),
+    0 4px 14px rgba(150, 70, 120, 0.35);
 
   font-size: 0.82rem;
   letter-spacing: 0.03em;
