@@ -33,23 +33,11 @@ body {
 ========================= */
 
 .line-text {
-  background: rgba(255, 255, 255, 0.75);
-  backdrop-filter: blur(2px);
-
-  padding: 14px 16px;
   margin: 12px 0;
-
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(80, 40, 120, 0.15);
-
-  font-size: 0; /* 改行ノード潰す */
-}
-
-/* ★これは外に出す */
-.line-text > div {
   font-size: 0.85rem;
   line-height: 1.8;
   letter-spacing: 0.04em;
+  color: #2a2235;
 }
 
    
