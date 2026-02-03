@@ -33,7 +33,6 @@ body {
 ========================= */
 
 .line-text {
-  padding-top: 0.01px;
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(2px);
 
@@ -43,11 +42,8 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(80, 40, 120, 0.15);
 
-  line-height: 1.8;
-  letter-spacing: 0.04em;
-  font-size: 0.85rem;
-}
-
+  /* ★これが重要 */
+  font-size: 0;
 
 /* =========================
    フォント切り替え
