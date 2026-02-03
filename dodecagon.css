@@ -45,6 +45,12 @@ body {
   /* ★これが重要 */
   font-size: 0;
 
+   .line-text > div {
+  font-size: 0.85rem;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+   }
+
 /* =========================
    フォント切り替え
 ========================= */
