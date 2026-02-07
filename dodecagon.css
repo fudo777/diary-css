@@ -192,6 +192,14 @@ body {
   z-index: 20; /* ← memoより上に */
 }
 
+.memo .f {
+  font-size: 13px;
+  line-height: 26px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  white-space: pre-line;
+}
+
 
 
 /* =========================
