@@ -52,10 +52,10 @@ body {
 
 
 /* =========================
-   ペン
+   ペン色とフォントのみ
 ========================= */
 
- /* 薬研用フォント */
+ /* 薬研用 */
 .y {
   font-size: 0.82rem;
   line-height: 28px;
@@ -64,7 +64,7 @@ body {
   white-space: pre-wrap;
 }
 
-/* 不動用フォント */
+/* 不動用 */
 .f {
   font-family: 'Fudo851', sans-serif;
   font-size: 13px;
@@ -81,7 +81,7 @@ body {
 
    
 /* =========================
-   ペン：薬研（yagen）
+   枠付きペン：薬研（yagen）
 ========================= */
 
 .yagen {
@@ -113,7 +113,7 @@ body {
 
 
 /* =========================
-   ペン：不動（fudo）
+   枠付きペン：不動（fudo）
 ========================= */
 
 .fudo {
@@ -152,7 +152,6 @@ body {
   position: relative;
   width: 66%;
   margin: 30px auto;
-
   padding: 22px 18px;
 
   background-color: #fff6c9;
@@ -168,14 +167,31 @@ body {
     );
   background-position-y: 22px;
 
+  /* ⚠ transformは残す */
   transform: rotate(-2.5deg);
 
-  box-shadow:
-    0 12px 18px rgba(0, 0, 0, 0.25),
-    0 2px 0 rgba(0,0,0,0.08);
-
-  z-index: 1;
+  /* 🔥 これを追加 */
+  z-index: 10;
 }
+
+.memo::before {
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-3deg);
+
+  width: 70px;
+  height: 24px;
+
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 4px;
+
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+  z-index: 20; /* ← memoより上に */
+}
+
 
 
 /* =========================
