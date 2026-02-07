@@ -64,17 +64,19 @@ body {
   white-space: pre-wrap;
 }
 
-
- /* 不動用フォント */
+/* 不動用フォント */
 .f {
-     font-family: 'Fudo851', sans-serif;
-  font-size: 0.82rem;
+  font-family: 'Fudo851', sans-serif;
+  font-size: 13px;
   line-height: 26px;
-  margin: 0;         
+
+  margin: 0;
   padding: 0;
-  letter-spacing: 0.035em;
-  color: #6b3a8f; /* アメジスト紫 */
-  white-space: pre-wrap;
+
+  letter-spacing: 0.03em;
+  color: #6b3a8f;
+
+  white-space: pre-line;
 }
 
    
@@ -150,13 +152,12 @@ body {
   position: relative;
   width: 66%;
   margin: 30px auto;
+
   padding: 22px 18px;
 
-  /* 見た目 */
-  background-color: #fff6c9; /* 薄黄色 */
+  background-color: #fff6c9;
   border-radius: 6px;
 
-  /* 罫線（行間ここ！） */
   background-image:
     repeating-linear-gradient(
       to bottom,
@@ -165,37 +166,16 @@ body {
       rgba(255, 170, 80, 0.6) 26px,
       rgba(255, 170, 80, 0.6) 27px
     );
+  background-position-y: 22px;
 
-
-  /* 傾き */
   transform: rotate(-2.5deg);
 
-  /* 捲れてる風の影 */
   box-shadow:
     0 12px 18px rgba(0, 0, 0, 0.25),
     0 2px 0 rgba(0,0,0,0.08);
 
   z-index: 1;
 }
-
- /* テープ */
-.memo::before {
-  content: "";
-  position: absolute;
-  top: -12px;
-  left: 50%;
-  transform: translateX(-50%) rotate(-3deg);
-
-  width: 70px;
-  height: 24px;
-
-  background: rgba(255, 255, 255, 0.55);
-  border-radius: 4px;
-
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  z-index: 2;
-}
-
 
 
 /* =========================
