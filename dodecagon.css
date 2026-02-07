@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Fudo851';
-  src: url('851tegaki_zatsu_normal.woff2') format('woff2');
+  src: url('851tegaki_zatsu_normal.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -88,10 +88,6 @@ body {
 ========================= */
 
 .fudo {
-  /* フォント */
-  font-family: 'Fudo851', sans-serif;
-  letter-spacing: 0.05em;
-   
   /* サイズ・配置 */
   width: 78%;
   max-width: 300px;
@@ -103,9 +99,10 @@ body {
   backdrop-filter: blur(8px);
 
   /* 文字 */
+  font-family: 'Fudo851', sans-serif;
   font-size: 0.82rem;
   line-height: 1.75;
-  letter-spacing: 0.035em;
+  letter-spacing: 0.05em;
   color: #6b3a8f; /* アメジスト紫 */
 
   /* 角 */
