@@ -115,6 +115,61 @@ body {
     0 6px 18px rgba(120, 70, 160, 0.35);  /* 深み影 */
 }
 
+/* =========================
+   その他　枠
+========================= */
+.memo {
+  width: 66%;
+  margin: 2em auto;
+  padding: 1.8em 1.2em 1.4em;
+  background: #fff6cc; /* 薄黄色 */
+  border-radius: 6px;
+
+  /* 斜めに貼られた感じ */
+  transform: rotate(-2deg);
+
+  /* 浮いてる影 */
+  box-shadow:
+    0 6px 10px rgba(0,0,0,0.18),
+    0 14px 20px rgba(0,0,0,0.12);
+
+  position: relative;
+}
+
+
+/* 罫線 */
+.memo p {
+  margin: 0;
+  padding: 0.4em 0;
+  line-height: 1.8;
+
+  border-bottom: 1px dotted #e6a45c;
+}
+
+/* 罫線最下部なし */
+.memo-note p:last-child {
+  border-bottom: none;
+}
+
+/* テープ */
+.memo::before {
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-3deg);
+
+  width: 80px;
+  height: 26px;
+
+  background: rgba(255,255,255,0.55);
+  border: 1px solid rgba(200,200,200,0.4);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+
+  border-radius: 4px;
+}
+
+
 
 
 /* =========================
