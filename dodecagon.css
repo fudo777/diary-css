@@ -56,24 +56,24 @@ body {
 ========================= */
 
  /* 薬研用フォント */
-
 .y {
   font-size: 0.82rem;
   line-height: 1.75;
   letter-spacing: 0.035em;
   color: #3e4fa3; /* タンザナイト寄り青 */
+  white-space: pre-wrap;
 }
 
 
  /* 不動用フォント */
-
 .f {
      font-family: 'Fudo851', sans-serif;
   font-size: 0.82rem;
   line-height: 1.75;
   letter-spacing: 0.035em;
   color: #6b3a8f; /* アメジスト紫 */
-  }
+  white-space: pre-wrap;
+}
 
    
 /* =========================
@@ -143,38 +143,26 @@ body {
 /* =========================
    その他　枠
 ========================= */
+
 .memo {
   width: 66%;
-  margin: 2em auto;
-  padding: 1.8em 1.2em 1.4em;
-  background: #fff6cc; /* 薄黄色 */
-  border-radius: 6px;
+  padding: 24px 20px;
+  background-color: #fff7c8; /* 薄黄色 */
 
-  /* 斜めに貼られた感じ */
-  transform: rotate(-2deg);
+  /* 罫線 */
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 28px,
+    rgba(255, 150, 80, 0.8) 29px
+  );
 
-  /* 浮いてる影 */
-  box-shadow:
-    0 6px 10px rgba(0,0,0,0.18),
-    0 14px 20px rgba(0,0,0,0.12);
+  background-size: 100% 30px;
+  line-height: 30px;
 
-  position: relative;
+  border-radius: 4px;
 }
 
-
-/* 罫線 */
-.memo p {
-  margin: 0;
-  padding: 0.4em 0;
-  line-height: 1.8;
-
-  border-bottom: 1px dotted #e6a45c;
-}
-
-/* 罫線最下部なし */
-.memo-note p:last-child {
-  border-bottom: none;
-}
 
 /* テープ */
 .memo::before {
