@@ -69,7 +69,9 @@ body {
 .f {
      font-family: 'Fudo851', sans-serif;
   font-size: 0.82rem;
-  line-height: 28px;
+  line-height: 26px;
+  margin: 0;         
+  padding: 0;
   letter-spacing: 0.035em;
   color: #6b3a8f; /* アメジスト紫 */
   white-space: pre-wrap;
@@ -160,11 +162,10 @@ body {
       to bottom,
       transparent 0px,
       transparent 26px,
-      rgba(255, 170, 80, 0.6) 27px,
-      rgba(255, 170, 80, 0.6) 28px
+      rgba(255, 170, 80, 0.6) 26px,
+      rgba(255, 170, 80, 0.6) 27px
     );
 
-  /* ← 行間を詰めたい時は 26px / 28px を小さく */
 
   /* 傾き */
   transform: rotate(-2.5deg);
