@@ -50,6 +50,31 @@ body {
   color: #2a2235;
 }
 
+
+/* =========================
+   ペン
+========================= */
+
+ /* 薬研用フォント */
+
+.y {
+  font-size: 0.82rem;
+  line-height: 1.75;
+  letter-spacing: 0.035em;
+  color: #3e4fa3; /* タンザナイト寄り青 */
+}
+
+
+ /* 不動用フォント */
+
+.f {
+     font-family: 'Fudo851', sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.75;
+  letter-spacing: 0.035em;
+  color: #6b3a8f; /* アメジスト紫 */
+  }
+
    
 /* =========================
    ペン：薬研（yagen）
