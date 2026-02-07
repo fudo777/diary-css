@@ -2,6 +2,16 @@
    基本設定（全体）
 ========================= */
 
+@font-face {
+  font-family: 'Fudo851';
+  src: url('851tegaki_zatsu_normal.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
 body {
   margin: 0;
   padding: 16px !important;
@@ -78,6 +88,10 @@ body {
 ========================= */
 
 .fudo {
+  /* フォント */
+  font-family: 'Fudo851', sans-serif;
+  letter-spacing: 0.05em;
+   
   /* サイズ・配置 */
   width: 78%;
   max-width: 300px;
