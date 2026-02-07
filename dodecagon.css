@@ -58,7 +58,7 @@ body {
  /* 薬研用フォント */
 .y {
   font-size: 0.82rem;
-  line-height: 1.75;
+  line-height: 28px;
   letter-spacing: 0.035em;
   color: #3e4fa3; /* タンザナイト寄り青 */
   white-space: pre-wrap;
@@ -69,7 +69,7 @@ body {
 .f {
      font-family: 'Fudo851', sans-serif;
   font-size: 0.82rem;
-  line-height: 1.75;
+  line-height: 28px;
   letter-spacing: 0.035em;
   color: #6b3a8f; /* アメジスト紫 */
   white-space: pre-wrap;
@@ -145,43 +145,55 @@ body {
 ========================= */
 
 .memo {
+  position: relative;
   width: 66%;
-  padding: 24px 20px;
-  background-color: #fff7c8; /* 薄黄色 */
+  margin: 30px auto;
+  padding: 22px 18px;
 
-  /* 罫線 */
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0px,
-    transparent 28px,
-    rgba(255, 150, 80, 0.8) 29px
-  );
+  /* 見た目 */
+  background-color: #fff6c9; /* 薄黄色 */
+  border-radius: 6px;
 
-  background-size: 100% 30px;
-  line-height: 30px;
+  /* 罫線（行間ここ！） */
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 26px,
+      rgba(255, 170, 80, 0.6) 27px,
+      rgba(255, 170, 80, 0.6) 28px
+    );
 
-  border-radius: 4px;
+  /* ← 行間を詰めたい時は 26px / 28px を小さく */
+
+  /* 傾き */
+  transform: rotate(-2.5deg);
+
+  /* 捲れてる風の影 */
+  box-shadow:
+    0 12px 18px rgba(0, 0, 0, 0.25),
+    0 2px 0 rgba(0,0,0,0.08);
+
+  z-index: 1;
 }
 
-
-/* テープ */
+ /* テープ */
 .memo::before {
   content: "";
   position: absolute;
-  top: -14px;
+  top: -12px;
   left: 50%;
   transform: translateX(-50%) rotate(-3deg);
 
-  width: 80px;
-  height: 26px;
+  width: 70px;
+  height: 24px;
 
-  background: rgba(255,255,255,0.55);
-  border: 1px solid rgba(200,200,200,0.4);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-
+  background: rgba(255, 255, 255, 0.55);
   border-radius: 4px;
-}
 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  z-index: 2;
+}
 
 
 
