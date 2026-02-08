@@ -67,13 +67,10 @@ body {
 /* 不動用 */
 .f {
   font-family: 'Fudo851', sans-serif;
-  font-size: 13px;
-  line-height: 26px;
 
   margin: 0;
   padding: 0;
 
-  letter-spacing: 0.03em;
   color: #6b3a8f;
 
   white-space: pre-line;
