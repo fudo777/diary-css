@@ -201,9 +201,10 @@ body {
 .note2 {
   position: relative;
 
-  /* 少し細め */
-  width: 40%;
-  margin-left: 34%;
+  /* サイズ・配置（左寄せ） */
+  width: 45%;
+  margin: 24px 0 24px 8%; /* ← 左に寄せた */
+
   padding: 20px;
 
   background-color: #ffffe0;
@@ -212,41 +213,38 @@ body {
   font-size: 11.5px;
   line-height: 1.2rem;
 
-  background-image: linear-gradient(
-    #dcdcdc 1px,
-    transparent 1px
-  );
+  /* 罫線 */
+  background-image: linear-gradient(#dcdcdc 1px, transparent 1px);
   background-size: auto 1.2rem;
 
-  /* 影は少しズラす */
+  /* 紙の影 */
   box-shadow:
-    -10px 12px 16px rgba(29, 29, 29, 0.3),
+    -6px 10px 14px rgba(29, 29, 29, 0.25),
     0 2px 0 rgba(255, 255, 255, 0.6) inset;
 
-  /* 傾きを強めに */
-  transform: rotate(2.2deg);
+  transform: rotate(-1.5deg);
 
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
-/* テープ位置もズラす */
+/* テープ（中央寄り） */
 .note2::after {
   content: "";
   position: absolute;
 
-  width: 72px;
-  height: 28px;
-  top: -12px;
-  left: 38%;
+  width: 80px;
+  height: 31px;
+
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%) rotate(3deg);
 
   background-color: rgba(255, 255, 255, 0.25);
   border-left: 2px dotted rgba(8, 8, 8, 0.1);
   border-right: 2px dotted rgba(8, 8, 8, 0.1);
 
   box-shadow: 0 2px 4px rgba(24, 24, 24, 0.25);
-
-  transform: rotate(-4deg);
 }
 
 
