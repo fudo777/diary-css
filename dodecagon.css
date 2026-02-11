@@ -3,12 +3,18 @@
 ========================= */
 
 @font-face {
-  font-family: 'Fudo851';
+  font-family: '851';
   src: url('https://raw.githubusercontent.com/fudo777/diary-css/main/851tegaki_zatsu_normal_0883.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'FeltPen';
+  src: url('https://raw.githubusercontent.com/fudo777/diary-css/main/KS-Kohichi-FeltPen.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
@@ -66,7 +72,7 @@ body {
 
 /* 不動用 */
 .f {
-  font-family: 'Fudo851', sans-serif;
+  font-family: '851', sans-serif;
 
   color: #6b3a8f;
 }
@@ -120,7 +126,7 @@ body {
   backdrop-filter: blur(8px);
 
   /* 文字 */
-  font-family: 'Fudo851', sans-serif;
+  font-family: '851', sans-serif;
   font-size: 0.82rem;
   line-height: 1.75;
   letter-spacing: 0.035em;
