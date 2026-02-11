@@ -30,6 +30,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'utage';
+  src: url('https://raw.githubusercontent.com/fudo777/diary-css/main/SyokakiUtage.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 body {
@@ -102,6 +109,14 @@ body {
 /* 薬研honya */
 .yh {
   font-family: 'honya', serif;
+  letter-spacing: 0.035em;
+  color: #3e4fa3; /* タンザナイト寄り青 */
+  font-weight: bold;
+}
+
+/* 薬研utage */
+.yu {
+  font-family: 'utage', serif;
   letter-spacing: 0.035em;
   color: #3e4fa3; /* タンザナイト寄り青 */
   font-weight: bold;
