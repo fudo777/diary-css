@@ -92,11 +92,13 @@ body {
    ペン色とフォントのみ
 ========================= */
 
- /* 薬研felt */
-.yf {
-  font-family: 'FeltPen', serif;
+/* 薬研holiday */
+.y {
+  font-family: 'holiday', serif;
   letter-spacing: 0.035em;
   color: #3e4fa3; /* タンザナイト寄り青 */
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 
@@ -107,6 +109,13 @@ body {
   color: #6b3a8f;
 }
 
+
+ /* 薬研felt */
+.yf {
+  font-family: 'FeltPen', serif;
+  letter-spacing: 0.035em;
+  color: #3e4fa3; /* タンザナイト寄り青 */
+}
 
 /* 薬研ArmedLemon */
 .yl {
@@ -131,14 +140,6 @@ body {
   color: #3e4fa3; /* タンザナイト寄り青 */
 }
 
-/* 薬研holiday */
-.y {
-  font-family: 'holiday', serif;
-  letter-spacing: 0.035em;
-  color: #3e4fa3; /* タンザナイト寄り青 */
-  font-size: 1.2em;
-  font-weight: bold;
-}
 
 
 /* =========================
