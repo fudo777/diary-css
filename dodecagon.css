@@ -37,6 +37,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'holiday';
+  src: url('https://raw.githubusercontent.com/fudo777/diary-css/main/HolidayMDJP.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 
 
 body {
@@ -117,6 +126,13 @@ body {
 /* 薬研utage */
 .yu {
   font-family: 'utage', 'FeltPen', serif;
+  letter-spacing: 0.035em;
+  color: #3e4fa3; /* タンザナイト寄り青 */
+}
+
+/* 薬研holiday */
+.yholi {
+  font-family: 'holiday', serif;
   letter-spacing: 0.035em;
   color: #3e4fa3; /* タンザナイト寄り青 */
 }
