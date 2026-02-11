@@ -19,6 +19,13 @@
 @font-face {
   font-family: 'lemon';
   src: url('https://raw.githubusercontent.com/fudo777/diary-css/main/ArmedLemon.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'honya';
+  src: url('https://raw.githubusercontent.com/fudo777/diary-css/main/HonyaJi-Re.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -91,7 +98,16 @@ body {
   color: #3e4fa3; /* タンザナイト寄り青 */
   font-weight: bold;
 }
-   
+
+/* 薬研honya */
+.yh {
+  font-family: 'honya', serif;
+  letter-spacing: 0.035em;
+  color: #3e4fa3; /* タンザナイト寄り青 */
+  font-weight: bold;
+}
+
+
 /* =========================
    枠付きペン：薬研（yagen）
 ========================= */
