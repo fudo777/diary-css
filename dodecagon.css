@@ -116,10 +116,9 @@ body {
 
 /* 薬研utage */
 .yu {
-  font-family: 'utage','FeltPen', serif;
+  font-family: 'utage', 'FeltPen', serif;
   letter-spacing: 0.035em;
   color: #3e4fa3; /* タンザナイト寄り青 */
-  font-weight: bold;
 }
 
 
