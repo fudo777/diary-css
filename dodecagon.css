@@ -64,6 +64,7 @@ body {
 }
 
 
+
 /* =========================
    ペン色とフォントのみ
 ========================= */
@@ -75,17 +76,20 @@ body {
   color: #3e4fa3; /* タンザナイト寄り青 */
 }
 
+
 /* 不動用 */
 .f {
   font-family: '851', sans-serif;
   color: #6b3a8f;
 }
 
-/* ArmedLemon */
+
+/* 薬研ArmedLemon */
 .yl {
   font-family: 'lemon', serif;
   letter-spacing: 0.035em;
   color: #3e4fa3; /* タンザナイト寄り青 */
+  font-weight: bold;
 }
    
 /* =========================
