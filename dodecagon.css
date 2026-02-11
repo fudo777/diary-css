@@ -92,8 +92,8 @@ body {
    ペン色とフォントのみ
 ========================= */
 
- /* 薬研用 */
-.y {
+ /* 薬研felt */
+.yf {
   font-family: 'FeltPen', serif;
   letter-spacing: 0.035em;
   color: #3e4fa3; /* タンザナイト寄り青 */
@@ -103,6 +103,7 @@ body {
 /* 不動用 */
 .f {
   font-family: '851', sans-serif;
+  letter-spacing: 0.035em;
   color: #6b3a8f;
 }
 
@@ -131,11 +132,11 @@ body {
 }
 
 /* 薬研holiday */
-.yholi {
+.y {
   font-family: 'holiday', serif;
   letter-spacing: 0.035em;
   color: #3e4fa3; /* タンザナイト寄り青 */
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -155,12 +156,12 @@ body {
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(8px);
 
-  /* 文字 */
-  font-family: 'FeltPen', serif;
-  font-size: 0.82rem;
-  line-height: 1.75;
+  /* 文字 *//* 薬研holiday */
+  font-family: 'holiday', serif;
   letter-spacing: 0.035em;
   color: #3e4fa3; /* タンザナイト寄り青 */
+  font-size: 1.2em;
+  font-weight: bold;
 
   /* 角 */
   border-radius: 12px;
