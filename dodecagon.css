@@ -19,7 +19,7 @@
 @font-face {
   font-family: 'lemon';
   src: url('https://raw.githubusercontent.com/fudo777/diary-css/main/ArmedLemon.woff') format('woff');
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
 }
 
