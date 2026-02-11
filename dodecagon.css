@@ -63,11 +63,10 @@ body {
 
  /* 薬研用 */
 .y {
-  font-size: 0.82rem;
-  line-height: 28px;
+  font-family: 'FeltPen', serif;
+  
   letter-spacing: 0.035em;
   color: #3e4fa3; /* タンザナイト寄り青 */
-  white-space: pre-wrap;
 }
 
 /* 不動用 */
@@ -94,6 +93,7 @@ body {
   backdrop-filter: blur(8px);
 
   /* 文字 */
+  font-family: 'FeltPen', serif;
   font-size: 0.82rem;
   line-height: 1.75;
   letter-spacing: 0.035em;
