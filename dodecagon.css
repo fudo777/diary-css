@@ -16,6 +16,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'lemon';
+  src: url('https://raw.githubusercontent.com/fudo777/diary-css/main/ArmedLemon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 body {
@@ -64,7 +71,6 @@ body {
  /* 薬研用 */
 .y {
   font-family: 'FeltPen', serif;
-  
   letter-spacing: 0.035em;
   color: #3e4fa3; /* タンザナイト寄り青 */
 }
@@ -72,10 +78,15 @@ body {
 /* 不動用 */
 .f {
   font-family: '851', sans-serif;
-
   color: #6b3a8f;
 }
 
+/* ArmedLemon */
+.yl {
+  font-family: 'lemon', serif;
+  letter-spacing: 0.035em;
+  color: #3e4fa3; /* タンザナイト寄り青 */
+}
    
 /* =========================
    枠付きペン：薬研（yagen）
